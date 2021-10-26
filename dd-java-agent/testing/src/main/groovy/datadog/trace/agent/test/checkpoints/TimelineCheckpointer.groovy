@@ -28,8 +28,11 @@ class TimelineCheckpointer implements Checkpointer {
   }
 
   @Override
-  void onRootSpan(AgentSpan rootSpan, boolean traceSampled, boolean checkpointsSampled) {
+  void onRootSpanWritten(AgentSpan rootSpan, boolean traceSampled, boolean checkpointsSampled) {
   }
+
+  @Override
+  void onRootSpanStarted(AgentSpan rootSpan) {}
 
   void throwOnInvalidSequence(Collection<DDId> trackedSpanIds) {
     String charset = StandardCharsets.UTF_8.name()

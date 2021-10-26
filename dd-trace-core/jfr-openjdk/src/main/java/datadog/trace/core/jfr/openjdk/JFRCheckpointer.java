@@ -7,6 +7,8 @@ import datadog.trace.api.sampling.ConstantSampler;
 import datadog.trace.api.sampling.Sampler;
 import datadog.trace.bootstrap.config.provider.ConfigProvider;
 import datadog.trace.bootstrap.instrumentation.api.AgentSpan;
+import datadog.trace.core.DDSpan;
+import datadog.trace.core.EndpointTracker;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
@@ -177,16 +179,27 @@ public class JFRCheckpointer implements Checkpointer {
   }
 
   @Override
-  public final void onRootSpan(
+  public final void onRootSpanWritten(
       final AgentSpan rootSpan, final boolean traceSampled, final boolean checkpointsSampled) {
     if (isEndpointCollectionEnabled) {
-      new EndpointEvent(
-              rootSpan.getResourceName().toString(),
-              rootSpan.getTraceId().toLong(),
-              rootSpan.getSpanId().toLong(),
-              traceSampled,
-              checkpointsSampled)
-          .commit();
+      if (rootSpan instanceof DDSpan) {
+        DDSpan span = (DDSpan) rootSpan;
+        EndpointTracker tracker = span.getEndpointTracker();
+        if (tracker != null) {
+          tracker.endpointWritten(span, traceSampled, checkpointsSampled);
+        }
+      }
+    }
+  }
+
+  @Override
+  public void onRootSpanStarted(AgentSpan rootSpan) {
+    if (isEndpointCollectionEnabled) {
+      if (rootSpan instanceof DDSpan) {
+        DDSpan span = (DDSpan) rootSpan;
+        span.setEndpointTracker(
+            new EndpointEvent(rootSpan.getTraceId().toLong(), rootSpan.getSpanId().toLong()));
+      }
     }
   }
 
