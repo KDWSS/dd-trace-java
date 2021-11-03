@@ -26,7 +26,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:servlet:request-3')
   // using tomcat 7.0.37 because there seems to be some issues with Tomcat's jar scanning in versions < 7.0.37
   // https://stackoverflow.com/questions/23484098/org-apache-tomcat-util-bcel-classfile-classformatexception-invalid-byte-tag-in
-  testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '7.0.37'
+  testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '7.0.107'
   testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-logging-juli', version: '7.0.37'
   testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '7.0.37'
 
