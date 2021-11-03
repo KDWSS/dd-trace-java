@@ -43,7 +43,7 @@ dependencies {
   testImplementation group: 'org.apache.tomcat', name: 'tomcat-jdbc', version: '7.0.19'
   testImplementation group: 'org.apache.tomcat', name: 'tomcat-juli', version: '7.0.19'
   testImplementation group: 'com.zaxxer', name: 'HikariCP', version: '2.4.0'
-  testImplementation group: 'com.mchange', name: 'c3p0', version: '0.9.5'
+  testImplementation group: 'com.mchange', name: 'c3p0', version: '0.9.5.4'
 
   latestDepTestImplementation group: 'com.h2database', name: 'h2', version: '+'
   latestDepTestImplementation group: 'org.apache.derby', name: 'derby', version: '10.14.+'
