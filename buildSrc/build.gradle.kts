@@ -33,7 +33,7 @@ dependencies {
   implementation("org.eclipse.aether", "aether-transport-http", "1.1.0")
   implementation("org.apache.maven", "maven-aether-provider", "3.3.9")
 
-  implementation("com.google.guava", "guava", "20.0")
+  implementation("com.google.guava", "guava", "21.0-rc1")
   implementation("org.ow2.asm", "asm", "9.0")
   implementation("org.ow2.asm", "asm-tree", "9.0")
 

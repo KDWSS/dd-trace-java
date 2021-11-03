@@ -20,7 +20,7 @@ muzzle {
     // end up with testing compatibility with guava 0.16 which lacks the method invocation added to be compatible with
     // most recent versions of guava (27+). While the long term solution is to make the muzzle plugin aware of upstream
     // declared dependencies, for now we just make sure that we use the proper ones.
-    extraDependency "com.google.guava:guava:20.0"
+    extraDependency "com.google.guava:guava:21.0-rc1"
   }
 
   // Making sure that instrumentation works with recent versions of Guava which removed method

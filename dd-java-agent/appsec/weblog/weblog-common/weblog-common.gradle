@@ -5,5 +5,5 @@ targetCompatibility = 1.6
 
 dependencies {
   api 'javax.servlet:servlet-api:2.4'
-  implementation group: 'com.google.guava', name: 'guava', version: '20.0'
+  implementation group: 'com.google.guava', name: 'guava', version: '21.0-rc1'
 }
