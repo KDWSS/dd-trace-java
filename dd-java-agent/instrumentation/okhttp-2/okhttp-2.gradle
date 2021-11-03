@@ -22,7 +22,7 @@ testSets {
 }
 
 dependencies {
-  compileOnly(group: 'com.squareup.okhttp', name: 'okhttp', version: '2.2.0')
+  compileOnly(group: 'com.squareup.okhttp', name: 'okhttp', version: '2.7.4')
 
   compile(project(':dd-java-agent:agent-tooling')) {
     exclude module: 'okhttp'
@@ -37,7 +37,7 @@ dependencies {
   testImplementation(project(':dd-java-agent:instrumentation:java-concurrent:java-completablefuture')) {
     exclude module: 'okhttp'
   }
-  testImplementation group: 'com.squareup.okhttp', name: 'okhttp', version: '2.2.0'
+  testImplementation group: 'com.squareup.okhttp', name: 'okhttp', version: '2.7.4'
 
   latestDepTestImplementation group: 'com.squareup.okhttp', name: 'okhttp', version: '[2.6,3)'
 }
