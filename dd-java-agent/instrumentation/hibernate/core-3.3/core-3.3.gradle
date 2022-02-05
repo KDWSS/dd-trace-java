@@ -37,7 +37,7 @@ dependencies {
   testImplementation group: 'org.hibernate', name: 'hibernate-core', version: '3.3.0.SP1'
   testImplementation group: 'org.hibernate', name: 'hibernate-annotations', version: '3.4.0.GA'
   testImplementation group: 'javassist', name: 'javassist', version: '+'
-  testImplementation group: 'com.h2database', name: 'h2', version: '1.4.197'
+  testImplementation group: 'com.h2database', name: 'h2', version: '2.1.210'
   testImplementation "javax.xml.bind:jaxb-api:2.2.11"
   testImplementation "com.sun.xml.bind:jaxb-core:2.2.11"
   testImplementation "com.sun.xml.bind:jaxb-impl:2.2.11"
