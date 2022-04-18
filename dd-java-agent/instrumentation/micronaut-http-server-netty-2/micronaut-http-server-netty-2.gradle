@@ -23,11 +23,11 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.0.0'
-  main_java8CompileOnly group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.0.0'
+  compileOnly group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.5.4'
+  main_java8CompileOnly group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.5.4'
 
   testImplementation project(':dd-java-agent:instrumentation:netty-4.1')
-  testCompile group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.0.0'
+  testCompile group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.5.4'
 
   testAnnotationProcessor "io.micronaut:micronaut-inject-java:2.0.0"
 
