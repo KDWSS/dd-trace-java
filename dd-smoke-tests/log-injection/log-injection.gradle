@@ -108,7 +108,7 @@ dependencies {
 
   // Logback has a bunch of alpha versions after this
   logbackBackendLatest 'ch.qos.logback:logback-classic:1.2.3'
-  logbackBackendLatest 'net.logstash.logback:logstash-logback-encoder:6.6'
+  logbackBackendLatest 'net.logstash.logback:logstash-logback-encoder:7.0'
 
   jbossInterface 'org.jboss.logging:jboss-logging:3.4.1.Final'
   jbossBackend 'org.jboss.logmanager:jboss-logmanager:1.2.0.GA'
