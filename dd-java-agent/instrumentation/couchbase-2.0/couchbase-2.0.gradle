@@ -50,13 +50,13 @@ artifacts {
 dependencies {
   implementation project(':dd-java-agent:instrumentation:rxjava-1')
 
-  compileOnly group: 'com.couchbase.client', name: 'java-client', version: '2.0.0'
+  compileOnly group: 'com.couchbase.client', name: 'java-client', version: '2.7.11'
 
   testImplementation group: 'com.couchbase.mock', name: 'CouchbaseMock', version: '1.5.19'
 
   testImplementation group: 'org.springframework.data', name: 'spring-data-couchbase', version: '2.0.0.RELEASE'
   // Earliest version that seems to allow queries with CouchbaseMock:
-  testImplementation group: 'com.couchbase.client', name: 'java-client', version: '2.5.0'
+  testImplementation group: 'com.couchbase.client', name: 'java-client', version: '2.7.11'
 
   latestDepTestImplementation group: 'org.springframework.data', name: 'spring-data-couchbase', version: '3.+'
   latestDepTestImplementation group: 'com.couchbase.client', name: 'java-client', version: '2.+'
