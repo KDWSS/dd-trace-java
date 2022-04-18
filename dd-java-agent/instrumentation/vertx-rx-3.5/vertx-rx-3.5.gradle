@@ -23,7 +23,7 @@ dependencies {
   testImplementation group: 'io.vertx', name: 'vertx-web', version: '3.5.0'
   testImplementation group: 'io.vertx', name: 'vertx-web-client', version: '3.5.0'
   testImplementation group: 'io.vertx', name: 'vertx-circuit-breaker', version: '3.5.0'
-  testImplementation group: 'io.vertx', name: 'vertx-rx-java2', version: '3.5.0'
+  testImplementation group: 'io.vertx', name: 'vertx-rx-java2', version: '3.5.3.CR1'
 
   // Vert.x 4.0 is incompatible with our tests.
   latestDepTestImplementation group: 'io.vertx', name: 'vertx-web', version: '3.+'
