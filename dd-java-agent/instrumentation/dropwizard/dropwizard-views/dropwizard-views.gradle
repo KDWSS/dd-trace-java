@@ -9,7 +9,7 @@ muzzle {
 apply from: "$rootDir/gradle/java.gradle"
 
 dependencies {
-  compileOnly group: 'io.dropwizard', name: 'dropwizard-views', version: '0.7.0'
+  compileOnly group: 'io.dropwizard', name: 'dropwizard-views', version: '3.0.0-beta.1'
 
   testImplementation group: 'io.dropwizard', name: 'dropwizard-views-freemarker', version: '0.7.0'
   testImplementation group: 'io.dropwizard', name: 'dropwizard-views-mustache', version: '0.7.0'
