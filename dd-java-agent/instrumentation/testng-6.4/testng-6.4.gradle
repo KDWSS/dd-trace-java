@@ -9,7 +9,7 @@ muzzle {
 }
 
 dependencies {
-  compileOnly group: 'org.testng', name: 'testng', version: '6.4'
+  compileOnly group: 'org.testng', name: 'testng', version: '6.12'
 
   testImplementation(group: 'org.testng', name: 'testng') {
     version {
