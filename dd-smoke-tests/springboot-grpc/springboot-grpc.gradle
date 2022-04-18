@@ -40,7 +40,7 @@ shadowJar {
 
 dependencies {
   main_java8Implementation 'org.springframework.boot:spring-boot-starter-web:1.5.18.RELEASE'
-  main_java8Implementation 'io.grpc:grpc-netty-shaded:1.31.1'
+  main_java8Implementation 'io.grpc:grpc-netty-shaded:1.43.1'
   main_java8Implementation 'io.grpc:grpc-protobuf:1.31.1'
   main_java8Implementation 'io.grpc:grpc-stub:1.31.1'
   main_java8Implementation 'org.apache.tomcat:annotations-api:6.0.53'
