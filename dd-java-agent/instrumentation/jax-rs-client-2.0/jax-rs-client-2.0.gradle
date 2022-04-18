@@ -33,7 +33,7 @@ dependencies {
   testImplementation group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.0.1'
 
   testImplementation group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.0'
-  testImplementation group: 'org.jboss.resteasy', name: 'resteasy-client', version: '3.0.5.Final'
+  testImplementation group: 'org.jboss.resteasy', name: 'resteasy-client', version: '3.6.2.Final'
   // ^ This version has timeouts https://issues.redhat.com/browse/RESTEASY-975
   testImplementation group: 'org.apache.cxf', name: 'cxf-rt-rs-client', version: '3.1.0'
   // Doesn't work with CXF 3.0.x because their context is wrong:
@@ -44,5 +44,5 @@ dependencies {
   latestDepTestImplementation group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.+'
   latestDepTestImplementation group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.+'
   latestDepTestImplementation group: 'org.apache.cxf', name: 'cxf-rt-rs-client', version: '3.2.6'
-  latestDepTestImplementation group: 'org.jboss.resteasy', name: 'resteasy-client', version: '3.0.26.Final'
+  latestDepTestImplementation group: 'org.jboss.resteasy', name: 'resteasy-client', version: '3.6.2.Final'
 }
