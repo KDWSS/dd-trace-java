@@ -19,7 +19,7 @@ apply from: "$rootDir/gradle/java.gradle"
 apply plugin: 'idea'
 apply plugin: 'com.google.protobuf'
 
-def grpcVersion = '1.5.0'
+def grpcVersion = '1.38.1'
 protobuf {
   protoc {
     // Download compiler rather than using locally installed version:
