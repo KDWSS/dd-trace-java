@@ -17,7 +17,7 @@ dependencies {
   testImplementation project(':utils:test-utils')
   testImplementation deps.bytebuddy
   testImplementation group: 'org.msgpack', name: 'msgpack-core', version: '0.8.20'
-  testImplementation group: 'org.msgpack', name: 'jackson-dataformat-msgpack', version: '0.8.20'
+  testImplementation group: 'org.msgpack', name: 'jackson-dataformat-msgpack', version: '0.8.21'
 }
 
 ext {
