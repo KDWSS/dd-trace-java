@@ -116,7 +116,7 @@ dependencies {
   lagomTestImplementation deps.scala211
   lagomTestImplementation group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.0.0'
   lagomTestImplementation project(':dd-java-agent:instrumentation:akka-init')
-  lagomTestImplementation group: 'com.lightbend.lagom', name: 'lagom-javadsl-testkit_2.11', version: '1.4.0'
+  lagomTestImplementation group: 'com.lightbend.lagom', name: 'lagom-javadsl-testkit_2.11', version: '1.5.5'
 }
 
 tasks.named("test").configure {
