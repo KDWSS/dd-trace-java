@@ -7,7 +7,7 @@ muzzle {
     group = 'org.springframework.boot'
     module = 'spring-boot-starter-amqp'
     versions = '[1.5.0.RELEASE,]'
-    extraDependency 'com.rabbitmq:amqp-client:2.7.0'
+    extraDependency 'com.rabbitmq:amqp-client:4.8.0'
   }
 }
 
