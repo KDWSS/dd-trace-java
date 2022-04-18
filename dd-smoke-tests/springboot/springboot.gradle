@@ -13,7 +13,7 @@ jar {
 }
 
 dependencies {
-  implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.18.RELEASE'
+  implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.0.M4'
 
   testImplementation project(':dd-smoke-tests')
 }
