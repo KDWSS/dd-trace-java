@@ -19,9 +19,9 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'com.sun.jersey', name: 'jersey-client', version: '1.1.4'
+  compileOnly group: 'com.sun.jersey', name: 'jersey-client', version: '1.12-b01'
 
-  testImplementation group: 'com.sun.jersey', name: 'jersey-client', version: '1.1.4'
+  testImplementation group: 'com.sun.jersey', name: 'jersey-client', version: '1.12-b01'
 
   latestDepTestImplementation group: 'com.sun.jersey', name: 'jersey-client', version: '+'
 }
