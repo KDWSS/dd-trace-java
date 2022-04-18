@@ -9,5 +9,5 @@ muzzle {
 }
 
 dependencies {
-  compileOnly group: 'ch.qos.logback', name: 'logback-classic', version: '1.0.0'
+  compileOnly group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.8'
 }
