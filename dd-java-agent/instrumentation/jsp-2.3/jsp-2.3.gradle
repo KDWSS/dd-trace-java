@@ -28,7 +28,7 @@ dependencies {
   // https://stackoverflow.com/questions/23484098/org-apache-tomcat-util-bcel-classfile-classformatexception-invalid-byte-tag-in
   testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '7.0.37'
   testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-logging-juli', version: '7.0.37'
-  testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '7.0.37'
+  testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '7.0.72'
 
   latestDepTestImplementation group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '+'
   latestDepTestImplementation group: 'javax.servlet', name: 'javax.servlet-api', version: '+'
