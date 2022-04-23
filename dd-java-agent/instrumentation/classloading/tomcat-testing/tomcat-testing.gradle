@@ -22,7 +22,7 @@ dependencies {
 
   //This seems to be the earliest version that has org.apache.catalina.loader.WebappClassLoaderBase
   //Older versions would require slightly different instrumentation.
-  testImplementation group: 'org.apache.tomcat', name: 'tomcat-catalina', version: '8.0.14'
+  testImplementation group: 'org.apache.tomcat', name: 'tomcat-catalina', version: '8.5.34'
 
   // Tomcat 10.1.+ seems to require Java 11. Limit to fix build.
   latestDepTestImplementation group: 'org.apache.tomcat', name: 'tomcat-catalina', version: '10.0.+'
