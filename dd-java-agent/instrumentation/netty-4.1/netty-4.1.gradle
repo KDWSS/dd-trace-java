@@ -41,12 +41,12 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'io.netty', name: 'netty-codec-http', version: '4.1.0.Final'
+  compileOnly group: 'io.netty', name: 'netty-codec-http', version: '4.1.71.Final'
   api project(':dd-java-agent:instrumentation:netty-4.1-shared')
 
   testImplementation project(':dd-java-agent:instrumentation:netty-promise-4')
   testImplementation project(':dd-java-agent:instrumentation:reactor-core-3.1')
-  testImplementation group: 'io.netty', name: 'netty-codec-http', version: '4.1.0.Final'
+  testImplementation group: 'io.netty', name: 'netty-codec-http', version: '4.1.71.Final'
   testImplementation group: 'io.projectreactor.netty', name: 'reactor-netty', version: '0.8.0.RELEASE'
   testImplementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.1.0'
 
