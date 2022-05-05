@@ -23,7 +23,7 @@ muzzle {
 apply from: "$rootDir/gradle/java.gradle"
 
 dependencies {
-  compileOnly group: 'org.elasticsearch.client', name: 'transport', version: '5.0.0'
+  compileOnly group: 'org.elasticsearch.client', name: 'transport', version: '5.2.0'
 
   implementation project(':dd-java-agent:instrumentation:elasticsearch')
 
@@ -37,5 +37,5 @@ dependencies {
   testImplementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.0'
 
   testImplementation group: 'org.elasticsearch.plugin', name: 'transport-netty3-client', version: '5.0.0'
-  testImplementation group: 'org.elasticsearch.client', name: 'transport', version: '5.0.0'
+  testImplementation group: 'org.elasticsearch.client', name: 'transport', version: '5.2.0'
 }
