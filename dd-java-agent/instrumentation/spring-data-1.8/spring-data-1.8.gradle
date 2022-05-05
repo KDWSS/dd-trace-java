@@ -13,7 +13,7 @@ muzzle {
     group = 'org.springframework'
     module = 'spring-aop'
     versions = "[1.2,]"
-    extraDependency "org.springframework.data:spring-data-commons:1.8.0.RELEASE"
+    extraDependency "org.springframework.data:spring-data-commons:1.10.0.RELEASE"
     assertInverse = true
   }
 }
@@ -32,7 +32,7 @@ testSets {
 // For now, that limits support to spring-data-commons 1.9.0 (maybe 1.8.0).
 // For testing, chose a couple spring-data modules that are old enough to work with 1.9.0.
 dependencies {
-  compileOnly(group: 'org.springframework.data', name: 'spring-data-commons', version: '1.8.0.RELEASE')
+  compileOnly(group: 'org.springframework.data', name: 'spring-data-commons', version: '1.10.0.RELEASE')
   compileOnly(group: 'org.springframework', name: 'spring-aop', version: '1.2')
 
   testImplementation group: 'org.spockframework', name: 'spock-spring', version: "$versions.spock"
