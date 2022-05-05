@@ -35,7 +35,7 @@ testSets {
 }
 
 dependencies {
-  main_java8Implementation group: 'com.typesafe.play', name: 'play_2.11', version: '2.3.9'
+  main_java8Implementation group: 'com.typesafe.play', name: 'play_2.11', version: '2.3.10'
 
   testImplementation project(':dd-java-agent:instrumentation:netty-3.8')
   testImplementation project(':dd-java-agent:instrumentation:akka-concurrent')
