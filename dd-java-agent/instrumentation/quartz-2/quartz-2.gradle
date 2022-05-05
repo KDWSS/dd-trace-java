@@ -21,8 +21,8 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'org.quartz-scheduler', name: 'quartz', version: '2.0.0'
-  testImplementation group: 'org.quartz-scheduler', name: 'quartz', version: '2.0.0'
+  compileOnly group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.2'
+  testImplementation group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.2'
 
   latestDepTestImplementation group: 'org.quartz-scheduler', name: 'quartz', version: '+'
   // these dependencies are required for XML configurations when quartz version > 2.2+
