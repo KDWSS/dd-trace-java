@@ -25,12 +25,12 @@ testSets {
 }
 
 dependencies {
-  main_java8CompileOnly group: 'io.projectreactor.netty', name: 'reactor-netty-http', version: '1.0.0'
+  main_java8CompileOnly group: 'io.projectreactor.netty', name: 'reactor-netty-http', version: '1.0.6'
   // This instrumentation interacts with the netty instrumentation
   main_java8CompileOnly project(':dd-java-agent:instrumentation:netty-4.1-shared')
   implementation project(':dd-java-agent:instrumentation:netty-4.1-shared')
 
-  testImplementation group: 'io.projectreactor.netty', name: 'reactor-netty-http', version: '1.0.0'
+  testImplementation group: 'io.projectreactor.netty', name: 'reactor-netty-http', version: '1.0.6'
   testImplementation project(':dd-java-agent:instrumentation:netty-4.1')
   testImplementation project(':dd-java-agent:instrumentation:reactor-core-3.1')
 
