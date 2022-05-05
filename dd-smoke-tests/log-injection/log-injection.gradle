@@ -103,11 +103,11 @@ dependencies {
 
   slf4jSimpleBackend "org.slf4j:slf4j-simple:${versions.slf4j}"
 
-  logbackBackend 'ch.qos.logback:logback-classic:1.0.0'
+  logbackBackend 'ch.qos.logback:logback-classic:1.2.8'
   logbackBackend 'net.logstash.logback:logstash-logback-encoder:3.0'
 
   // Logback has a bunch of alpha versions after this
-  logbackBackendLatest 'ch.qos.logback:logback-classic:1.2.3'
+  logbackBackendLatest 'ch.qos.logback:logback-classic:1.2.8'
   logbackBackendLatest 'net.logstash.logback:logstash-logback-encoder:6.6'
 
   jbossInterface 'org.jboss.logging:jboss-logging:3.4.1.Final'
