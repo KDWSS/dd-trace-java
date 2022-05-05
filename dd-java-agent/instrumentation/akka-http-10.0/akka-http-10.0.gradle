@@ -87,7 +87,7 @@ sourceSets {
 
 dependencies {
   main_java8CompileOnly deps.scala211
-  main_java8CompileOnly group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.0.0'
+  main_java8CompileOnly group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.0.6'
 
   // These are the common dependencies that are inherited by the other test sets
   testImplementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.6.0'
@@ -99,7 +99,7 @@ dependencies {
 
   baseTestImplementation deps.scala211
   // First 10.0.x version with a convenient way to test http2 support
-  baseTestImplementation group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.0.10'
+  baseTestImplementation group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.1.14'
   baseTestImplementation group: 'com.typesafe.akka', name: 'akka-http2-support_2.11', version: '10.0.10'
 
   // There are some internal API changes in 10.1 that we would like to test separately for
@@ -114,7 +114,7 @@ dependencies {
   latestDepTestImplementation group: 'com.typesafe.akka', name: 'akka-stream_2.13', version: '2.6.+'
 
   lagomTestImplementation deps.scala211
-  lagomTestImplementation group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.0.0'
+  lagomTestImplementation group: 'com.typesafe.akka', name: 'akka-http_2.11', version: '10.0.6'
   lagomTestImplementation project(':dd-java-agent:instrumentation:akka-init')
   lagomTestImplementation group: 'com.lightbend.lagom', name: 'lagom-javadsl-testkit_2.11', version: '1.4.0'
 }
