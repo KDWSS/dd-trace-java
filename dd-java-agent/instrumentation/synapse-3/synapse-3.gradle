@@ -26,7 +26,7 @@ configurations.all {
 }
 
 dependencies {
-  compileOnly group: 'org.apache.synapse', name: 'synapse-nhttp-transport', version: '3.0.0'
+  compileOnly group: 'org.apache.synapse', name: 'synapse-nhttp-transport', version: '3.0.1'
 
   testImplementation group: 'org.apache.synapse', name: 'synapse-core', version: '3.0.0'
 
