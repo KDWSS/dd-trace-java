@@ -35,7 +35,7 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.0'
+  compileOnly group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.893'
 
   // Include httpclient instrumentation for testing because it is a dependency for aws-sdk.
   testImplementation project(':dd-java-agent:instrumentation:apache-httpclient-4')
