@@ -47,7 +47,7 @@ dependencies {
 
   // Before 2.5, play used netty 3.x which isn't supported, so for better test consistency, we test with just 2.5
   testImplementation group: 'com.typesafe.play', name: 'play-java_2.11', version: '2.5.0'
-  testImplementation group: 'com.typesafe.play', name: 'play-java-ws_2.11', version: '2.5.0'
+  testImplementation group: 'com.typesafe.play', name: 'play-java-ws_2.11', version: '2.5.17'
   testImplementation(group: 'com.typesafe.play', name: 'play-test_2.11', version: '2.5.0') {
     exclude group: 'org.eclipse.jetty.websocket', module: 'websocket-client'
   }
