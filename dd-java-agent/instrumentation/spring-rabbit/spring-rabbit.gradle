@@ -28,7 +28,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:trace-annotation')
   testImplementation project(':dd-java-agent:instrumentation:rabbitmq-amqp-2.7')
   testImplementation group: 'org.testcontainers', name: 'rabbitmq', version: '1.15.2'
-  testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.4.0'
+  testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.5.11'
 
   latestDepTestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '+'
 }
