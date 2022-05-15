@@ -42,7 +42,7 @@ dependencies {
   latestDepTestImplementation group: 'io.dropwizard', name: 'dropwizard-testing', version: '1.+'
 
   // Resteasy
-  testImplementation group: 'org.jboss.resteasy', name: 'resteasy-jaxrs', version: '3.0.0.Final'
+  testImplementation group: 'org.jboss.resteasy', name: 'resteasy-jaxrs', version: '3.1.0.Final'
 
   resteasy31TestImplementation(group: 'org.jboss.resteasy', name: 'resteasy-jaxrs') {
     version {
