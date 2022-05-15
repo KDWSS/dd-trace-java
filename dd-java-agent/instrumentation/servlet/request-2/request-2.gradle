@@ -34,7 +34,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:servlet')
   testImplementation project(':dd-java-agent:instrumentation:jetty-util')
   testImplementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '7.0.0.v20091005'
-  testImplementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '7.0.0.v20091005'
+  testImplementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.2.27.v20190403'
 
   latestDepTestImplementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '7.+'
   latestDepTestImplementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '7.+'
