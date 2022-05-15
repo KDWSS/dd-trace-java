@@ -40,7 +40,7 @@ dependencies {
   testImplementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.0'
 
   testImplementation group: 'org.elasticsearch.client', name: 'rest', version: '5.0.0'
-  testImplementation group: 'org.elasticsearch', name: 'elasticsearch', version: '5.0.0'
+  testImplementation group: 'org.elasticsearch', name: 'elasticsearch', version: '6.8.14'
   testImplementation group: 'org.elasticsearch.plugin', name: 'transport-netty3-client', version: '5.0.0'
 
   latestDepTestImplementation group: 'org.elasticsearch.client', name: 'elasticsearch-rest-client', version: '6.3.+'
