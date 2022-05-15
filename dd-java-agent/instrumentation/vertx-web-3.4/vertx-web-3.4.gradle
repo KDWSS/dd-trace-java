@@ -32,12 +32,12 @@ artifacts {
 }
 
 dependencies {
-  main_java8CompileOnly group: 'io.vertx', name: 'vertx-web', version: '3.4.0'
+  main_java8CompileOnly group: 'io.vertx', name: 'vertx-web', version: '3.5.4'
 
   testImplementation project(':dd-java-agent:instrumentation:netty-4.1')
   testImplementation project(':dd-java-agent:instrumentation:trace-annotation')
 
-  testImplementation group: 'io.vertx', name: 'vertx-web', version: '3.4.0'
+  testImplementation group: 'io.vertx', name: 'vertx-web', version: '3.5.4'
   testImplementation group: 'io.vertx', name: 'vertx-web-client', version: '3.4.0'
 
   latestDepTestImplementation group: 'io.vertx', name: 'vertx-web', version: '3.+'
