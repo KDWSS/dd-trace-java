@@ -18,7 +18,7 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'org.hibernate', name: 'hibernate-core', version: '4.0.0.Final'
+  compileOnly group: 'org.hibernate', name: 'hibernate-core', version: '5.3.20.Final'
 
   implementation project(':dd-java-agent:instrumentation:hibernate')
 
@@ -27,7 +27,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:hibernate:core-3.3')
   testImplementation project(':dd-java-agent:instrumentation:hibernate:core-4.3')
 
-  testImplementation group: 'org.hibernate', name: 'hibernate-core', version: '4.0.0.Final'
+  testImplementation group: 'org.hibernate', name: 'hibernate-core', version: '5.3.20.Final'
   testImplementation group: 'com.h2database', name: 'h2', version: '1.4.197'
   testImplementation "javax.xml.bind:jaxb-api:2.2.11"
   testImplementation "com.sun.xml.bind:jaxb-core:2.2.11"
