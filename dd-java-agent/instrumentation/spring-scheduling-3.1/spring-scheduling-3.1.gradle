@@ -25,8 +25,8 @@ dependencies {
   // choose a recent version so that we can test both lambdas (JDK8)
   // @Async requires proxying and older versions can't read classfile versions > 51
   // we muzzle older versions of spring anyway
-  compileOnly group: 'org.springframework', name: 'spring-context', version: '5.0.0.RELEASE'
-  testImplementation group: 'org.springframework', name: 'spring-context', version: '5.0.0.RELEASE'
+  compileOnly group: 'org.springframework', name: 'spring-context', version: '5.1.0.RELEASE'
+  testImplementation group: 'org.springframework', name: 'spring-context', version: '5.1.0.RELEASE'
 
   testImplementation project(':dd-java-agent:instrumentation:trace-annotation')
 
