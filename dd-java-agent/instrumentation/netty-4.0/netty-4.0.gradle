@@ -46,7 +46,7 @@ dependencies {
 
   testImplementation project(':dd-java-agent:instrumentation:netty-promise-4')
   testImplementation group: 'io.netty', name: 'netty-codec-http', version: '4.0.0.Final'
-  testImplementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.0.0'
+  testImplementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.0.35'
 
   latestDepTestImplementation group: 'io.netty', name: 'netty-codec-http', version: '4.0.56.Final'
   latestDepTestImplementation group: 'org.asynchttpclient', name: 'async-http-client', version: '2.0.+'
