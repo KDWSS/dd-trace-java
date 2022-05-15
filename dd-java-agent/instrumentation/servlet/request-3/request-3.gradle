@@ -46,6 +46,6 @@ dependencies {
 
   // FIXME: 9.0.24 seems to have changed something...
   // TODO: Tomcat 9.0.52 has a copy of the JSR166 ThreadPoolExecutor so it needs special instrumentation
-  latestDepTestImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '9.0.50'
+  latestDepTestImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '9.0.58'
   latestDepTestImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '9.0.50'
 }
