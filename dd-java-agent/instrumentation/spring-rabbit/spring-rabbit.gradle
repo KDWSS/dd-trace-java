@@ -22,7 +22,7 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'org.springframework.amqp', name: 'spring-rabbit', version: '2.0.0.RELEASE'
+  compileOnly group: 'org.springframework.amqp', name: 'spring-rabbit', version: '2.0.2.RELEASE'
   compileOnly group: 'org.springframework.amqp', name: 'spring-amqp', version: '2.0.0.RELEASE'
 
   testImplementation project(':dd-java-agent:instrumentation:trace-annotation')
