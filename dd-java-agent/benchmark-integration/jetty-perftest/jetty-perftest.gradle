@@ -4,7 +4,7 @@ dependencies {
   implementation group: 'io.opentracing', name: 'opentracing-api', version: '0.32.0'
   implementation group: 'io.opentracing', name: 'opentracing-util', version: '0.32.0'
 
-  implementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.1.v20170120'
+  implementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.41.v20210516'
   implementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.1.v20170120'
 }
 
