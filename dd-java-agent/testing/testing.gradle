@@ -45,7 +45,7 @@ dependencies {
   testImplementation project(':utils:test-utils')
   testImplementation project(':dd-java-agent:instrumentation:trace-annotation')
 
-  testImplementation group: 'cglib', name: 'cglib', version: '3.2.5'
+  testImplementation group: 'cglib', name: 'cglib', version: '3.2.6'
   // test instrumenting java 1.1 bytecode
   testImplementation group: 'net.sf.jt400', name: 'jt400', version: '6.1'
 
