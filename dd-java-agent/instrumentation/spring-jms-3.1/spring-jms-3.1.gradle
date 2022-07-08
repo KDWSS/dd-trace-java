@@ -28,7 +28,7 @@ dependencies {
   // test written for 4.x+
 
   testImplementation group: 'org.apache.activemq.tooling', name: 'activemq-junit', version: '5.14.5'
-  testImplementation group: 'org.apache.activemq', name: 'activemq-pool', version: '5.14.5'
+  testImplementation group: 'org.apache.activemq', name: 'activemq-pool', version: '5.15.6'
   testImplementation group: 'org.apache.activemq', name: 'activemq-broker', version: '5.14.5'
 
   latestDepTestImplementation group: 'org.springframework', name: 'spring-jms', version: '+'
