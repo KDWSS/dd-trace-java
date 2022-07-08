@@ -26,7 +26,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:apache-httpclient-4')
   // Also include netty instrumentation because it is used by aws async client
   testImplementation project(':dd-java-agent:instrumentation:netty-4.1')
-  testImplementation group: 'software.amazon.awssdk', name: 'apache-client', version: '2.2.0'
+  testImplementation group: 'software.amazon.awssdk', name: 'apache-client', version: '2.15.20'
   testImplementation group: 'software.amazon.awssdk', name: 's3', version: '2.2.0'
   testImplementation group: 'software.amazon.awssdk', name: 'rds', version: '2.2.0'
   testImplementation group: 'software.amazon.awssdk', name: 'ec2', version: '2.2.0'
