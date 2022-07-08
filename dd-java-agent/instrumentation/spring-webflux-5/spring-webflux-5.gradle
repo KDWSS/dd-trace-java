@@ -87,7 +87,7 @@ dependencies {
 
   boot24TestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '2.4.0'
   boot24TestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.4.0'
-  boot24TestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-reactor-netty', version: '2.4.0'
+  boot24TestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-reactor-netty', version: '2.4.5'
 
   latestBoot24TestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '2.4.+'
   latestBoot24TestImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.4.+'
