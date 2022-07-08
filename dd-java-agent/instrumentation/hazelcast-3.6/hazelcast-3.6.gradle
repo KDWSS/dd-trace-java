@@ -18,10 +18,10 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'com.hazelcast', name: 'hazelcast-all', version: '3.6'
+  compileOnly group: 'com.hazelcast', name: 'hazelcast-all', version: '3.10.7'
 
   // Using 3.8 to allow us to exercise the async capabilities that only exist in 3.8
-  testImplementation group: 'com.hazelcast', name: 'hazelcast-all', version: '3.8'
+  testImplementation group: 'com.hazelcast', name: 'hazelcast-all', version: '3.10.7'
 
   latestDepTestImplementation group: 'com.hazelcast', name: 'hazelcast-all', version: '3.8.+'
 }
