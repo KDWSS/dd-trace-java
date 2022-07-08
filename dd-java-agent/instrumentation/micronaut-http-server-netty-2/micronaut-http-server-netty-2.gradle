@@ -29,7 +29,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:netty-4.1')
   testCompile group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.0.0'
 
-  testAnnotationProcessor "io.micronaut:micronaut-inject-java:2.0.0"
+  testAnnotationProcessor "io.micronaut:micronaut-inject-java:3.2.7"
 
   latestDepTestCompile group: 'io.micronaut', name: 'micronaut-http-server-netty', version: '2.+'
 }
