@@ -33,7 +33,7 @@ dependencies {
   testImplementation group: 'io.vertx', name: 'vertx-mysql-client', version: '3.9.0'
 
   // This is needed for the test container to start
-  testImplementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+  testImplementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'
   testImplementation "org.testcontainers:mysql:1.15.1"
 
   latestDepTestImplementation group: 'io.vertx', name: 'vertx-mysql-client', version: '3.+'
