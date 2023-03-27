@@ -19,7 +19,7 @@ final class CachedData {
     scala211      : "2.11.12",
     scala212      : "2.12.12",
     scala213      : "2.13.4",
-    kotlin        : "1.3.72",
+    kotlin        : "1.6.0-M1",
     coroutines    : "1.3.0",
     dogstatsd     : "2.13.0",
     jnr_unixsocket: "0.28",
