@@ -2,7 +2,7 @@ ext {
   minJavaVersionForTests = JavaVersion.VERSION_1_8
 }
 
-def akkaVersion = '2.3.2'
+def akkaVersion = '2.4.11.2'
 def scalaVersion = '2.11'
 
 muzzle {
