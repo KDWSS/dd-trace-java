@@ -68,10 +68,10 @@ tasks.named("latestDepTest").configure {
 }
 
 dependencies {
-  compileOnly group: 'org.scala-lang', name: 'scala-library', version: '2.13.0'
+  compileOnly group: 'org.scala-lang', name: 'scala-library', version: '2.13.9'
   implementation project(':dd-java-agent:instrumentation:scala-promise')
 
-  testImplementation group: 'org.scala-lang', name: 'scala-library', version: '2.13.0'
+  testImplementation group: 'org.scala-lang', name: 'scala-library', version: '2.13.9'
   testImplementation project(':dd-java-agent:instrumentation:scala-promise')
 
   latestDepTestImplementation group: 'org.scala-lang', name: 'scala-library', version: '+'
