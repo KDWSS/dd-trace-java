@@ -36,7 +36,7 @@ dependencies {
   testImplementation project(':dd-java-agent:instrumentation:jetty-util')
   testImplementation group: 'org.eclipse.jetty', name: 'jetty-server', version: '8.2.0.v20160908'
   testImplementation group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '8.2.0.v20160908'
-  testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '8.0.41'
+  testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version: '8.5.51'
   testImplementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.0.41'
 
   // Jetty 10 seems to refuse to run on java8.
