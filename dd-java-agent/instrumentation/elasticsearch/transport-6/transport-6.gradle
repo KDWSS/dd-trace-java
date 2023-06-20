@@ -44,7 +44,7 @@ dependencies {
   testImplementation group: 'org.elasticsearch.plugin', name: 'transport-netty4-client', version: '6.0.0'
   testImplementation group: 'org.elasticsearch.client', name: 'transport', version: '6.0.0'
 
-  testImplementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.0'
+  testImplementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.17.1'
   testImplementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.0'
 
   // Limit tests to <6.5 as the latest versions have a breaking change for the tests.
