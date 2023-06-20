@@ -10,7 +10,7 @@ muzzle {
     module = "spring-webflux"
     versions = "[5.0.0.RELEASE,)"
     assertInverse = true
-    extraDependency "io.projectreactor.netty:reactor-netty:0.8.0.RELEASE"
+    extraDependency "io.projectreactor.netty:reactor-netty:0.8.1.RELEASE"
   }
 
   pass {
