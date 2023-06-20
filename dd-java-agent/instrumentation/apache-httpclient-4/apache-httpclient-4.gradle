@@ -29,9 +29,9 @@ testSets {
 }
 
 dependencies {
-  compileOnly group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.0'
+  compileOnly group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
 
-  testImplementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.0'
+  testImplementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
 
   latestDepTestImplementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '+'
 }
